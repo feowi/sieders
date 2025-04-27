@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shortcuts Website</title>
+  <title>Tineke Sieders Company ©</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,24 +24,23 @@
       width: 150px;
     }
     .shortcuts {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
       margin-top: 30px;
-      justify-content: center;
-    }
-    .shortcut {
-      background-color: #4CAF50;
-      color: white;
-      padding: 20px;
-      border-radius: 8px;
-      width: 200px;
       text-align: center;
     }
+    .shortcut {
+      margin: 10px 0;
+    }
     .shortcut a {
-      color: white;
+      color: #4CAF50;
       text-decoration: none;
+      font-size: 18px;
       font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .shortcut a:hover {
+      text-decoration: underline;
+      color: #45a049;
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
     }
     footer {
       position: fixed;
@@ -66,17 +65,17 @@
     <!-- Voeg hier de snelkoppelingen toe -->
     <div class="shortcut">
       <a href="https://example.com" target="_blank">
-        <p>Link 1</p>
+        Link 1
       </a>
     </div>
     <div class="shortcut">
       <a href="https://anotherexample.com" target="_blank">
-        <p>Link 2</p>
+        Link 2
       </a>
     </div>
     <div class="shortcut">
       <a href="https://yetanotherlink.com" target="_blank">
-        <p>Link 3</p>
+        Link 3
       </a>
     </div>
   </div>
